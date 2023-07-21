@@ -1,0 +1,53 @@
+.bg-light {
+    background-color: #f4f6f8!important;
+}
+
+.bg-primary {
+    background-color: #f6e05e!important;
+}
+.hover-effect {
+    transition: transform .18s ease-in-out;
+}
+
+.hover-effect:hover {
+    transform: translateY(-2px)
+}
+.btn-primary {
+    color: #000;
+    background-color: #F6E05E;
+    border-color: #F6E05E;
+  }
+  
+.btn-primary:hover {
+    color: #000;
+    background-color: #f7e576;
+    border-color: #f7e36e;
+  }
+
+.wave-bg {
+    display: block;
+    height: 220px;
+    width: 100%;
+    min-width: 600px;
+    transform-origin: top;
+    -webkit-animation: animateWave 2000ms cubic-bezier(.23,1,.32,1) forwards;
+    animation: animateWave 2000ms cubic-bezier(.23,1,.32,1) forwards;
+    background-image: url(../images/wave-bg.svg);
+    background-position: center;
+    background-repeat: no-repeat
+}
+
+#scrolltop {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s,opacity .5s ease-in;
+    position: fixed;
+    bottom: 20px;
+    right: 20px
+}
+
+#scrolltop .btn {
+    padding: 3px 11px;
+    border-radius: 50%
+}

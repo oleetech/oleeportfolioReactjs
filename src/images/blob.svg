@@ -1,0 +1,8 @@
+<svg id="10015.io" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+	<defs>
+		<clipPath id="blob">
+			<path fill="#474bff" d="M397.5,337.5Q353,435,252,414.5Q151,394,90,317Q29,240,91,165Q153,90,249,73.5Q345,57,393.5,148.5Q442,240,397.5,337.5Z" />
+		</clipPath>
+	</defs>
+	<image x="0" y="0" width="100%" height="100%" clip-path="url(#blob)" xlink:href="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wzNjMxMDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1OTkxMTJ8&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080" preserveAspectRatio="xMidYMid slice"></image>
+</svg>

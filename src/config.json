@@ -1,0 +1,145 @@
+{
+    "site":[
+
+        {"title":"OleeTech"}
+        
+    ],
+    "navigation":[
+{
+        "title":"About",
+        "url":"/about"
+        },       
+        
+        {
+            "title":"Projects",
+            "url":"/project"
+            },
+
+            {
+                "title":"Contact",
+                "url":"/contact"
+            }
+],
+"hero":[{
+    "title":" I Am Web Developer ",
+    "description":"I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations. "
+}
+
+],
+"social":[
+  {
+    "name":"Facebook",
+    "link":"http://facebook.com/oleetech",
+    "icon":"fa-facebook"
+  },
+  {
+    "name":"Twitter",
+    "link":"http://twitter.com/oleetech",
+    "icon":"fa-twitter"
+  }  ,
+  {
+    "name":"Instagram",
+    "link":"http://instagram.com/oleetech",
+    "icon":"fa-instagram"
+  }  ,
+  {
+    "name":"Linkdin",
+    "link":"http://linkdin.com/oleetech",
+    "icon":"fa-linkedin-in"
+  }  
+],
+"projectsData" :[
+    {
+      "id": 1,
+      "title": "Project 1",
+      "description": "Description of Project 1",
+      "image": "path/to/image1.jpg",
+      "category": "category1"
+    },
+    {
+        "id": 2,
+        "title": "Project 1",
+        "description": "Description of Project 1",
+        "image": "path/to/image1.jpg",
+        "category": "category2"
+      },
+      {
+        "id": 3,
+        "title": "Project 1",
+        "description": "Description of Project 1",
+        "image": "path/to/image1.jpg",
+        "category": "category3"
+      }
+  ],
+  "language":[
+    {
+    "name":"HTML",
+    "percent":80
+  },
+  {
+    "name":"CSS",
+    "percent":70
+  },
+  {
+    "name":"JAVASCRIPT",
+    "percent":60
+  },
+  {
+    "name":"Python",
+    "percent":65
+  },
+  {
+    "name":"Sql",
+    "percent":70
+  },
+  {
+    "name":"Mongodb",
+    "percent":50
+  }
+    
+  ],
+  "framework":[
+    {
+      "name":"Jquery",
+      "percent":65
+    },
+    {
+      "name":"React",
+      "percent":65
+    },
+    {
+      "name":"Bootstrap",
+      "percent":65
+    },
+    {
+      "name":"Django",
+      "percent":70
+    }
+
+  ],
+  "experience":[
+    {
+      "title":"UI/UX Design",
+      "position" :"Designerr Inc. " ,
+      "duration":"(2012-2014)",
+      "description1" :"Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.",
+      "description2" :"Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. "      
+    },
+    {
+      "title":"UI/UX Design",
+      "position" :"Designerr Inc. " ,
+      "duration":"(2012-2014)",
+      "description1" :"Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.",
+      "description2" :"Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. "      
+    }
+
+  ],
+  "contact":[
+    {
+      "title":"Let’s talk how I can help you! ",
+      "email":"olee.techs@gmail.com",
+      "skype":"olee@skype.com",
+      "phone":"+8801953-664967"
+    }
+  ]
+}

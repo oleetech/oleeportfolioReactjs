@@ -1,0 +1,38 @@
+.marker {
+    position: relative;
+    display: inline;
+    width: auto
+}
+
+.marker-center {
+    padding-right: 0
+}
+
+.marker:after {
+    content: "";
+    width: 125px;
+    height: 30px;
+    position: absolute;
+    bottom: -25px;
+    right: -30px;
+    background-image: url(../images/marker.svg);
+    background-repeat: no-repeat
+}
+
+.marker-center:after {
+    bottom: -30px;
+    left: 50%;
+    margin-left: -60px
+}
+
+@media(max-width: 575.98px) {
+    .marker {
+        padding-right:0
+    }
+
+    .marker:after {
+        bottom: -30px;
+        left: 50%;
+        margin-left: -60px
+    }
+}
