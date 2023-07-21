@@ -17,7 +17,7 @@ function Home() {
 
         <Hero2/>
         <div class="wave-bg"></div>
-        <Hero/>
+        
 <AboutMe/>
 
         <Portfolio/>

@@ -6,18 +6,18 @@ function Footer() {
   <div className="container">
     <div className="my-3">
       <div className="h4">      {Config.site[0].title} </div>
-      <p>Web Developer &amp; Mobile Application Developer</p>
+      <p>{Config.hero[0].title}</p>
       <div className="social-nav">
         <nav role="navigation">
           <ul className="nav justify-content-center">
             {Config.social.map((social) =>(
             <li className="nav-item">
             <a
-              className="nav-link"
+              className="nav-link color-primary"
               href={social.link}
               title={social.name}
             >
-                 <i className={`fab ${social.icon}`} />
+                 <i className={`fa ${social.icon}`} />
 
               <span className="menu-title sr-only">{social.name}</span>
             </a>
@@ -31,11 +31,11 @@ function Footer() {
       </div>
     </div>
     <div className="text-small text-secondary">
-      <div className="mb-1">© Super Folio. All rights reserved.</div>
+      <div className="mb-1">© {Config.site[0].title}. All rights reserved.</div>
       <div>
         Design -{" "}
-        <a href="https://templateflip.com/" target="_blank">
-          TemplateFlip
+        <a className='text-muted link-underline-warning' href="https://oleetech.com/" target="_blank">
+        {Config.site[0].title}
         </a>
       </div>
     </div>

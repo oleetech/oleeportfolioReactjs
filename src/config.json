@@ -3,7 +3,10 @@
 
         {"title":"OleeTech"}
         
+        
     ],
+
+
     "navigation":[
 {
         "title":"About",
@@ -21,8 +24,9 @@
             }
 ],
 "hero":[{
-    "title":" I Am Web Developer ",
-    "description":"I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations. "
+    "title":"  Web Developer(Django+React.js) & Python Developer ",
+    "name":"Olee Ahmmed Ashik",
+    "description":" Highly skilled Django+ReactJS developer with 1 years of experience seeking challenging opportunities to contribute my expertise in building scalable and efficient web applications. Passionate about delivering high-quality code and committed to staying updated with the latest technologies and best practices in the field. "
 }
 
 ],
@@ -45,7 +49,12 @@
   {
     "name":"Linkdin",
     "link":"http://linkdin.com/oleetech",
-    "icon":"fa-linkedin-in"
+    "icon":"fa-linkedin"
+  }  ,
+  {
+    "name":"Github",
+    "link":"http://github.com/oleetech",
+    "icon":"fa-github"
   }  
 ],
 "projectsData" :[
@@ -114,25 +123,31 @@
     {
       "name":"Django",
       "percent":70
+    },
+    {
+      "name":"Django Rest Api",
+      "percent":75
     }
 
   ],
   "experience":[
     {
-      "title":"UI/UX Design",
-      "position" :"Designerr Inc. " ,
-      "duration":"(2012-2014)",
-      "description1" :"Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.",
-      "description2" :"Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. "      
-    },
-    {
-      "title":"UI/UX Design",
-      "position" :"Designerr Inc. " ,
-      "duration":"(2012-2014)",
-      "description1" :"Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.",
-      "description2" :"Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment. "      
+      "title":"Django Developer",
+      "position" :"Oleetech " ,
+      "duration":"(2022-2023)",
+      "description1" :"Responsible for designing, developing, and maintaining web applications using Django framework",
+      "description2" :"Collaborated with cross-functional teams to gather requirements and translate them into technical specifications and design documents. Implemented RESTful APIs to facilitate seamless data exchange between front-end and back-end. Utilized Django ORM to interact with the database and ensure data integrity. Developed front-end components using HTML, CSS, and JavaScript, with a focus on creating responsive and user-friendly interfaces. Conducted regular code reviews and testing to ensure code quality and application functionality. Troubleshot and resolved issues related to application performance, security, and scalability. Participated in Agile development methodologies, attending daily stand-ups and contributing to sprint planning and retrospectives. Stayed updated with the latest Django trends and best practices to enhance the team's overall technical capabilities and project delivery. "      
     }
 
+
+  ],
+  "testimonial":[
+    {"quote":"Working with [Olee Ahmmed] as our Django developer was an absolute pleasure. They demonstrated a deep understanding of the Django framework and brought creativity to the table when solving complex problems. Their attention to detail and ability to write clean, efficient code greatly contributed to the success of our project. Moreover, their strong communication skills and proactive approach made collaboration seamless. We highly recommend [Olee Ahmmed] to anyone in need of a skilled Django developer.",
+    "client":"Active Group Ltd ",
+    "address":"Gazipur,Bangladesh",
+    "position":"CEO / Web Design Company",
+    "image":"https://eu-fr.confirmation.com/media/236000/credit-client.png"
+  }
   ],
   "contact":[
     {

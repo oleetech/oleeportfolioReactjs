@@ -1,18 +1,15 @@
 import React from 'react'
-
+import Config from '../config.json'
+import avater from '../images/olee.jpg'
 function AboutMe() {
   return (
     <div className="section pt-4 px-3 px-lg-4" id="about">
     <div className="container">
       <div className="row">
         <div className="col-md-6">
-          <h2 className="h4 my-2">Hello! I’m Walter Patterson.</h2>
+          <h2 className="h4 my-2">Hello! I’m {Config.hero[0].name}.</h2>
           <p>
-            I am passionate about UI/UX design and Web Design. I am a skilled
-            front-end developer and master of graphic design tools such as
-            Photoshop and Sketch. I am a quick learner and a team worker that gets
-            the job done. I can easily capitalize on low hanging fruits and
-            quickly maximize timely deliverables for real-time schemas.
+          {Config.hero[0].description}
           </p>
           <div className="row mt-3">
             <div className="col-sm-2">
@@ -25,19 +22,19 @@ function AboutMe() {
               <div className="pb-1">Email:</div>
             </div>
             <div className="col-sm-10">
-              <div className="pb-1 fw-bolder">walter@company.com</div>
+              <div className="pb-1 fw-bolder">{Config.contact[0].email}</div>
             </div>
             <div className="col-sm-2">
               <div className="pb-1">Skype:</div>
             </div>
             <div className="col-sm-10">
-              <div className="pb-1 fw-bolder">username@skype.com</div>
+              <div className="pb-1 fw-bolder">{Config.contact[0].skype}</div>
             </div>
             <div className="col-sm-2">
               <div className="pb-1">Phone:</div>
             </div>
             <div className="col-sm-10">
-              <div className="pb-1 fw-bolder">+0718-111-0011</div>
+              <div className="pb-1 fw-bolder">{Config.contact[0].phone}</div>
             </div>
             <div className="col-sm-2">
               <div className="pb-1">Address:</div>
@@ -60,7 +57,7 @@ function AboutMe() {
         >
           <img
             className="rounded img-fluid mt-2"
-            src="https://demo.templateflip.com/super/images/avatar.jpg"
+            src={avater}
             width={400}
             height={400}
             alt="Walter Patterson"

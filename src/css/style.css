@@ -5,6 +5,10 @@
 .bg-primary {
     background-color: #f6e05e!important;
 }
+
+.color-primary {
+    color: #f9ca24!important;
+}
 .hover-effect {
     transition: transform .18s ease-in-out;
 }
